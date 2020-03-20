@@ -16,7 +16,7 @@ public class Main {
             heroList.add(new Hero(scn.nextLine()));
         }
         for (int i=0;i<heroList.size();i++){
-            System.out.println("---->>");
+            System.out.println(i +"---->>"+ heroList.get(i).getName());
         }
         //System.out.println(Hero.showInfo());
         
