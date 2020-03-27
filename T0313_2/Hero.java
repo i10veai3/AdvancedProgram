@@ -2,11 +2,8 @@ public class Hero{
 
     private String name,skill,gender,arms,difficulty;
 
-    public Hero(){
+    public Hero(String newName){
         System.out.println("The Hero appear!");
-    }
-
-    public void setName(String newName){
         this.name = newName;
     }
 
